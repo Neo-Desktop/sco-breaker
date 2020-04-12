@@ -1,0 +1,46 @@
+Overview
+--------
+
+sb, the SCO Breaker, generates serial numbers, activation keys and
+registration keys for SCO products, such as UnixWare 7.1.4.
+
+It still works for versions released after SCO was acquired by Xinuos.
+Products made by Xinuos themselves (namely OpenServer 10) do not employ any
+kind of DRM.
+
+License
+-------
+
+MIT
+
+Installation
+------------
+
+    $ make
+    $ install -s sb /usr/local/bin
+    $ install -m 0644 doc/sb.1 /usr/local/man/man1
+
+The install step is optional; sb does not depend on any files and can thus be
+run from any directory.
+
+Usage and Documentation
+-----------------------
+
+See doc/sb.1 for using sb and doc/drm.ms for a description of the DRM
+mechanisms employed by SCO.
+
+For those with no access to troff implementation, a PDF version of the
+documents have been included.
+
+Motivation
+----------
+
+UNIX wants to be free.
+It's an integral part of the UNIX experience to be able to read and understand
+the source code of the system.
+If you haven't done so yet, use something from the V6 through 4.4BSD era.
+You'll see what I mean.
+
+So this is a very elaborate "Fuck you" to SCO.
+I hope it's to your liking.
+
